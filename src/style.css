@@ -1,0 +1,502 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+/* Login CSS START  */
+
+.login_content{
+    background-color: #111112;
+    height: 80vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: #fff;
+    flex-wrap: wrap;
+}
+
+.login_content h1{
+    border-bottom: 2px solid #fff;
+}
+
+.login{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 1rem 0;
+    padding: 4rem 5rem;
+    background-color: #1a1a1a;
+    border-radius: 50px;
+}
+
+
+.login input{
+    margin: .5rem 0;
+    padding: .3rem 1.8rem;
+    border-radius: 50px;
+    border: 2px solid #000;
+}
+
+.login button{
+    margin: .5rem 0;
+    padding: .3rem 1.6rem;
+    border-radius: 50px;
+    border: 2px solid #000;
+}
+
+.login button:hover{
+    background-color: #000;
+    color: #fff;
+    transition: .2s;
+}
+
+.login_content p span{
+    color: #ffa500;
+    cursor: pointer;
+}
+
+/* Login CSS ENDS */
+
+
+/* Header CSS START */
+
+#nav_bar{
+    height: 5rem;
+    background-color: #242428;
+    color: #fff;
+}
+
+.logoSize{
+    height: 4rem;
+}
+
+.txtColor{
+    color: white !important;
+}
+
+
+.cart_img{
+    height: 2rem;
+    cursor: pointer;
+}
+
+.nav_link{
+    padding: 0 12px;
+    font-size: 1.1rem;
+}
+
+#cart_cnt{
+    position: relative;
+    top: -20px;
+    left: 49px;
+}
+
+/* Header CSS ENDS */
+
+
+/* HOME CSS STARTS */
+
+
+.head{
+    display: flex;
+    justify-content: space-around;
+    background-color: #1a1a1a;
+    flex-wrap: wrap;
+    color: #fff;
+}
+
+.head .left{
+    background-color: #1a1a1a;
+    border: 2px solid #ff0000;
+    /* text-align: center; */
+}
+
+.head .right{
+    border: 2px solid #ff0000;
+}
+
+.food_content{
+    background-color: #1a1a1a;
+}
+
+.food_content h1{
+    text-align: center;
+    padding: 1rem 0;
+    border-top: 2px solid #c0b3b3;
+    color: #fff;
+}
+
+.carousel_img{
+    height: 30rem;
+}
+
+.card_color{
+    background-color: #1a1a1a;
+    color: #fff;
+}
+
+.foods{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+#cake_img{
+    height: 13rem;
+}
+
+/* HOME CSS ENDS */
+
+
+/* Footer CSS STARTS */
+
+.footer_content{
+    height: 5rem;
+    background-color: #332f2f;
+}
+
+.footer_content .container {
+    padding: 2rem 0;
+    height: 5rem;
+    background-color: #332f2f;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #fff;
+}
+
+.github, .leetcode, .linkedIn, .insta{
+    width: 2rem;
+    cursor: pointer;
+    margin: 0 .5rem;
+}
+
+.linkedIn{
+    width: 1.6rem;
+}
+
+/* Footer CSS ENDS */
+
+
+/* MENU CSS STARTS */
+
+.menu_content{
+    background-color: #1a1a1a;
+    color: #fff;
+}
+
+.menu_head{
+    padding: 1rem 0;
+    border-bottom: 2px solid #808080;
+}
+
+.all_items{
+    padding: 2rem 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.all_items button{
+    margin: 0 1rem;
+    background-color: #1a1a1a;
+    border: 2px solid #808080;
+    padding: .2rem 1rem;
+}
+
+.all_items button a{
+    text-decoration: none;
+}
+
+.menu_head h1{
+    text-align: center;
+    width: fit-content;
+    margin: auto;
+    border-bottom: 2px solid #808080;
+}
+
+
+.menu_food_cards, .menu_drink_cards, .menu_cake_cards{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 4rem 0;
+    border-bottom: 2px solid #808080;
+    flex-wrap: wrap;
+}
+
+.card_color img{
+    height: 12rem;
+    /* object-fit: contain; */
+}
+
+/* MENU CSS ENDS */
+
+
+/* ORDERS CSS STARTS  */
+
+.orders{
+    height: 36.8rem;
+    background-color: #1a1a1a;
+    color: #fff;
+}
+
+.orders h1{
+    width: fit-content;
+    margin: auto;
+    padding: 2rem 0;
+    border-bottom: 2px solid #808080;
+}
+
+/* ORDERS CSS ENDS */
+
+
+/* Food CSS STARTS */
+
+.food_items{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    background-color: #1a1a1a;
+}
+
+/* Food CSS ENDS */
+
+
+/* Checkout CSS STARTS */
+
+.checkout_content{
+    background-color: #111112;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.checkout_content .recent_checkout{
+    width: 60%;
+    min-height: 37rem;
+    border-right: 2px solid #808080;
+    text-align: center;
+    color: #fff;
+}
+
+.checkout_content .recent_checkout .checkout_orders{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.checkout_content .recent_checkout .checkout_orders .checkout_items{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: aliceblue;
+    margin: 1rem 0;
+    height: 8rem;
+    width: 90%;
+    color: #000;
+    border-radius: 50px;
+}
+
+.checkout_items .more_item button{
+    padding: 2px 10px;
+    background-color: #808080;
+    margin: 0 6px;
+}
+
+.checkout_items .delete_icon svg{
+    margin-right: 1rem;
+    cursor: pointer;
+}
+
+.checkout_content .recent_checkout h3{
+    margin: 2rem 0;
+
+}
+
+.checkout_content .recent_checkout .checkout_orders .checkout_items img{
+    height: 5rem;
+    width: 20%;
+    margin-left: 2rem;
+}
+
+.checkout_content .recent_checkout .checkout_orders .checkout_items h3{
+    margin-right: 1rem;
+}
+
+
+.checkout_content .checkout_price{
+    width: 40%;
+    text-align: center;
+    color: #fff;
+}
+
+.checkout_price .total_price{
+    margin: 2rem 0;
+}
+
+.checkout_price .pay{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    width: fit-content;
+    margin: auto;
+    margin-top: 4rem;
+}
+
+.checkout_price .pay span{
+    color: #ffa500;
+}
+
+.checkout_price .pay h3{
+    margin: 1rem 0;
+}  
+
+.checkout_price .checkout_btn{
+    border: 2px solid #000;
+    margin: 1rem 0;
+    padding: .4rem 1rem;
+    border-radius: 50px;
+    transition: all .2s;
+}
+
+.checkout_price .checkout_btn:hover{
+    background-color: #000;
+    color: #fff;
+}
+
+@media (max-width: 1163px){
+    .checkout_content{
+        flex-direction: column;
+    }
+
+    .checkout_content .recent_checkout{
+        border: none;
+        width: 100%;
+        border-bottom: 2px solid #808080;
+    }
+
+    .checkout_content .checkout_price{
+        width: 100%;
+    }
+}
+
+/* Checkout CSS ENDS */
+
+
+/* SIGNUP CSS START  */
+
+.signup_content{
+    background-color: #111112;
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.signup_content .signup{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: .4rem 0;
+    padding: 2rem 4rem;
+    background-color: #1a1a1a;
+    border-radius: 50px;
+}
+
+.signup_content h1{
+    color: #fff;
+    border-bottom: 2px solid #fff;
+    margin-bottom: 2rem;
+
+}
+
+.signup_content .signup input{
+    margin: .5rem 0;
+    padding: .4rem 1rem;
+    border-radius: 50px;
+}
+
+.signup_content .signup button{
+    padding: .3rem 2rem;
+    margin-top: 2rem;
+    border-radius: 50px;
+    border: 2px solid #000;
+    transition: all .2s;
+}
+
+
+.signup_content .signup button:hover{
+    background-color: #000;
+    color: #fff;
+}
+
+.signup_content p{
+    margin-top: 2rem;
+    color: #fff;
+}
+
+.signup_content p span{
+    color: #ffa500;
+    cursor: pointer;
+}
+
+.singup_form{
+    display: flex;
+    flex-direction: column;
+}
+
+/* SIGNUP CSS ENDS */
+
+
+/* Profile CSS STARTS */
+
+.user_profile{
+    height: 79vh;
+    background-color: #1a1a1a;
+    color: #fff;
+}
+
+.user_profile h1{
+    width: fit-content;
+    margin: auto;
+    padding: 1rem 0;
+    border-bottom: 2px solid #808080;
+}
+
+.user_profile .user{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    width: fit-content;
+    margin: 6rem auto;
+    font-size: 1.4rem;
+}
+
+.user_profile .edit_btn{
+    padding: .3rem 2rem;
+    border-radius: 50px;
+    border: 2px solid #000;
+    transition: all .2s;
+    font-size: 1rem;
+}
+
+.user_profile .edit_btn:hover{
+    background-color: #000;
+    color: #fff;
+}
+
+/* Profile CSS ENDS */
