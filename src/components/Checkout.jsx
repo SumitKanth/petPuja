@@ -42,10 +42,11 @@ const Checkout = () => {
             type: "deleteItem",
             payload: option
         })
+        window.location.reload();
     }
 
     const decrement = (option) => {
-        if(option.qty == 1){
+        if(option.qty === 1){
             dispatch({
                 type: "deleteItem",
                 payload: option
@@ -57,10 +58,11 @@ const Checkout = () => {
                 payload: option
             })
         }
+        window.location.reload();
     }
 
     const payment = () => {
-        if(localStorage.getItem("totalPrice") == '0')
+        if(localStorage.getItem("totalPrice") === '0')
             return toast("first buy anything");
         if(!localStorage.getItem("loged_in")){
             toast("Login First");

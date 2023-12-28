@@ -13,9 +13,9 @@ import Signup from './components/SignUp';
 import Profile from './components/Profile';
 import { Toaster } from 'react-hot-toast';
 
-// export const server = "https://petpuja-backend.onrender.com/api/v1/user";
+export const server = "https://petpuja-backend.onrender.com/api/v1/user";
 
-export const server = "http://localhost:5000/api/v1/user";
+// export const server = "http://localhost:5000/api/v1/user"; 
 
 function App() {
   return (
