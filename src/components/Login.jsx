@@ -23,7 +23,7 @@ const Login = () => {
         e.preventDefault();
 
         try{
-            const user = await axios.post(`/user/login`, {number, email, password});
+            const user = await axios.post(`/api/v1/user/login`, {number, email, password});
 
             toast(`${user.data.message}`);
             navigate('/');

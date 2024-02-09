@@ -64,6 +64,8 @@ const Checkout = () => {
     const payment = () => {
         if(localStorage.getItem("totalPrice") === '0')
             return toast("first buy anything");
+        if(!localStorage.getItem("isLogin")) 
+            localStorage.setItem("isLogin", "false")
         if(localStorage.getItem("isLogin") === "false"){
             toast("Login First");
             navigate('/login');
