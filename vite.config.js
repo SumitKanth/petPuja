@@ -5,7 +5,7 @@ import react from '@vitejs/plugin-react'
 export default defineConfig({
   server:{
       proxy:{
-        '/user': 'http://localhost:5000/api/v1',
+        // '/user': 'http://localhost:5000/api/v1',
         '/user': "https://petpujabackend.onrender.com/api/v1"
       }
   },
