@@ -86,7 +86,7 @@ function Header() {
                             <li className="nav-item nav_link">
                                 {
                                     (isAuth === "true") ? <Link className="nav-link active txtColor" aria-current="page" to="/orders">Prev_Orders</Link> : 
-                                    <Link className="nav-link active txtColor" onClick={isAuthUser} aria-current="page" to="/">Prev_Orders</Link>
+                                    <Link className="nav-link active txtColor" onClick={isAuthUser} aria-current="page" to="/signup">Prev_Orders</Link>
                                 }
                             </li>
 

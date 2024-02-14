@@ -1,5 +1,5 @@
 import React from 'react' 
-import {BrowserRouter, Routes, Route} from 'react-router-dom';
+import {HashRouter, Routes, Route} from 'react-router-dom';
 import Home from './components/Home';
 import Login from './components/Login';
 import NoPage from './components/NoPage';
@@ -13,14 +13,10 @@ import Signup from './components/Signup';
 import Profile from './components/Profile';
 import { Toaster } from 'react-hot-toast';
 
-// export const server = "https://petpuja-backend.onrender.com/api/v1/user";
-
-// export const server = "http://localhost:5000/api/v1/user"; 
-
 function App() {
   return (
     <>
-      <BrowserRouter>
+      <HashRouter>
 
         <Routes>
           <Route path="/" element={<Home />} />
@@ -36,7 +32,7 @@ function App() {
           <Route path="*" element={<NoPage />} />
         </Routes>
         <Toaster />
-      </BrowserRouter>
+      </HashRouter>
     </>
   );
 }
