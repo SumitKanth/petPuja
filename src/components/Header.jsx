@@ -8,6 +8,7 @@ import { Link } from 'react-router-dom';
 import axios from 'axios';
 import toast from 'react-hot-toast';
 import { useNavigate } from 'react-router-dom';
+import hamburger from '../img/hamburger.png';
 
 
 function Header() {
@@ -64,7 +65,7 @@ function Header() {
                 <div className="container-fluid">
                     <a className="navbar-brand txtColor" href="/"><img src={logo} alt="logo" className='logoSize' /></a>
                     <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation" onClick={hamBurger}>
-                        <span className="navbar-toggler-icon"></span>
+                        <span className="navbar-toggler-icon"><img src={hamburger} alt="img"  className='hamBurgerSty'/></span>
                     </button>
                     <div className="collapse navbar-collapse" id="navbarSupportedContent">
                         <ul className="navbar-nav ms-auto mb-2 mb-lg-0">
