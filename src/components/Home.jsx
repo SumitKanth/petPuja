@@ -53,7 +53,7 @@ const Home = () => {
                     <div class="card-body">
                         <h5 class="card-title">Foods</h5>
                         <p class="card-text">Get your favourite food just in one click.</p>
-                        <a href="/food" class="btn btn-primary">Go To Foods</a>
+                        <a href="/#/food" class="btn btn-primary">Go To Foods</a>
                     </div>
                     </div>
 
@@ -62,7 +62,7 @@ const Home = () => {
                     <div class="card-body">
                         <h5 class="card-title">Drinks</h5>
                         <p class="card-text">Get your drinks just in one click.</p>
-                        <a href="/drink" class="btn btn-primary">Go To Drinks</a>
+                        <a href="/#/drink" class="btn btn-primary">Go To Drinks</a>
                     </div>
                     </div>
 
@@ -71,7 +71,7 @@ const Home = () => {
                     <div class="card-body">
                         <h5 class="card-title">Cakes</h5>
                         <p class="card-text">Get your drinks just in one click.</p>
-                        <a href="/cake" class="btn btn-primary">Go To Cakes</a>
+                        <a href="/#/cake" class="btn btn-primary">Go To Cakes</a>
                     </div>
                     </div>
 

@@ -32,9 +32,9 @@ function Menu() {
                 <div className="menu_head">
                     <h1>Order Now Or Reget Later</h1>
                     <div className="all_items">
-                        <button><Link to="/#/food">Foods</Link></button>
-                        <button><Link to="/#/drink">Drinks</Link></button>
-                        <button><Link to="/#/cake">Cakes</Link></button>
+                        <button><Link to="/food">Foods</Link></button>
+                        <button><Link to="/drink">Drinks</Link></button>
+                        <button><Link to="/cake">Cakes</Link></button>
                     </div>
                 </div>
 
