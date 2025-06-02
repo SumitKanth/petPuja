@@ -17,7 +17,7 @@ function Footer() {
                     </div>
 
                     <div className="middle">
-                        <p>Made By Sumit © 2023</p>
+                        <p>Made By Sumit © 2025</p>
                     </div>
 
                     <div className="right">
